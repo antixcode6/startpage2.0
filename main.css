@@ -1,0 +1,66 @@
+body{
+background: #172336;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  font-size: 1.5em;
+  /*whatever width you want*/
+}
+.jumbotron{
+padding: 3em;
+font-size: 2em;
+background: transparent;
+color: white;
+font-family: 'Oxygen Mono', monospace;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.period{
+color: #48d487;
+}
+.col{
+margin: 1em;
+padding: 1.5em;
+}
+ul {
+  list-style-type: none;
+  background: transparent;
+}
+.list-group-item{
+background: transparent;
+}
+.heading1{
+color: #9d24bf;
+}
+.heading2{
+color: #d7d952;
+}
+.heading3{
+color: #48d487;
+}
+a{
+color: white;
+}
+.container .time {
+	font-family: 'test';
+	font-size: 120px;
+	margin-bottom: 20px;
+}
